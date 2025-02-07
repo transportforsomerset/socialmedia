@@ -1,5 +1,4 @@
 name: Send Bluesky Post
-uses: myConsciousness/bluesky-post@v5
 
 on:
   [push]
