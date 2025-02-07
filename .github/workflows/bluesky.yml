@@ -12,4 +12,4 @@ jobs:
         with:
           text: "Hello, Bluesky!"
           identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
-          password: ${{ secrets.BLUESKY_PASSWORD }}
+          #password: ${{ secrets.BLUESKY_PASSWORD }}
