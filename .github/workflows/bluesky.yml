@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: myConsciousness/bluesky-post@v5
         with:
-          text: "Hello, Bluesky!"
+          text: "Buses of Somerset service 54 is delayed due to a road closure in Fivehead!"
           identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
           password: ${{ secrets.BLUESKY_PASSWORD }}
