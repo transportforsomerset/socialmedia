@@ -2,14 +2,14 @@
 name: Send Bluesky Post
 
 on:
-  [push]
+  workflow_dispatch:
 
 jobs:
   post:
     runs-on: ubuntu-latest
     steps:
-      - uses: myConsciousness/bluesky-post@v5
+      - uses: myConsciousness/bluesky-post@v6
         with:
-          text: "Hello, Bluesky!"
+          text: "TfS Test!"
           identifier: ${{ secrets.BLUESKY_IDENTIFIER }}
           #password: ${{ secrets.BLUESKY_PASSWORD }}
