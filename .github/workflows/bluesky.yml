@@ -19,3 +19,6 @@ jobs:
 
       - name: BlueSky
         run: bun run social:bluesky
+        env:
+          BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
+          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
