@@ -1,7 +1,6 @@
 name: 3 - Run BlueSky
 
 on:
-  push:
   workflow_dispatch:
 
 jobs:
